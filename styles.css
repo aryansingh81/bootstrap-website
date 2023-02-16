@@ -1,0 +1,135 @@
+body{
+      font-family: "Montserrat";
+      text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: "Montserrat";
+      font-weight: 800;
+} 
+  
+p {
+    color: #8f8f8f;
+}
+  
+a {
+    color: black;
+}
+  
+.big-heading {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+ 
+.section-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section {
+    background-color: #8fbc8b;
+    color: #fff;
+}
+  
+.white-section {
+    background-color: #fff;
+}
+  
+.navbar {
+    padding: 0 0 4.5rem;
+}
+  
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+.nav-item {
+    padding: 0 18px;
+}
+  
+.nav-links {
+    font-size: 1.2rem;
+    font-family: "Monserrat light";
+}
+  
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Tittle section*/
+  
+#title {
+    background-color: #e34234;
+    color: white;
+    text-align: left;
+}
+  
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+  
+/*About section */
+#about {
+    position: relative;
+}
+
+.about-title {
+    font-size: 1.25rem;
+}
+  
+.about-box {
+    padding: 4.5%;
+}
+  
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+  
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* Education section */
+#education {
+    padding: 150px;
+  }
+  
+.text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+.education-column {
+    padding: 3% 2%;
+  }
+  
+
+
+/* Footer section */
+.social-icon {
+    color: black;
+    margin: 20px 10px;
+}
+  
+.copyright {
+    font-size: x-small;
+    color: #8f8f8f;
+}
+ 
+
+
+/* Mobile Ur Tablet Ke liye */
+@media (max-width: 1028px) {
+#title {
+      text-align: center;
+  }
+}
